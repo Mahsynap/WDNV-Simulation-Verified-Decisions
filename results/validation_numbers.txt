@@ -1,0 +1,5 @@
+Net3 burst, pipe 109, A=38 cm2: leak flow 76.5 L/s; orifice-link vs analytic Cd*A*sqrt(2gP): max rel. error = 0.03%
+vs WNTR built-in leak model (WNTRSimulator): max |dP| over all junctions and times = 0.002 m; leak flow 76.55 vs 76.53 L/s
+isolation by closing both sub-pipes: leak flow after action = 8.91e-05 L/s (before: 79.7 L/s)
+Net3: 28 ms per 24 h simulation (15-min steps, PDD)
+ky6: 108 ms per 24 h simulation (15-min steps, PDD)

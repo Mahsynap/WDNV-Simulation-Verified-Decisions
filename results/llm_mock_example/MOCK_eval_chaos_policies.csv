@@ -1,0 +1,9 @@
+policy,cost_vs_hold_pct,share_of_oracle_gain_pct,ci95,worse_than_hold_pct,hard_violation_pct,no_action_pct
+HOLD (do nothing),0.0,0.0,"[0, 0]",0.0,0.0,0.0
+naive playbook on top diagnosis,-12.4,14.5,"[-1, 49]",0.0,0.0,0.0
+exhaustive search + twin verification (no LLM),-12.6,14.8,"[-0, 54]",0.0,0.0,0.0
+"LLM (no retrieval), validator only",-6.8,8.0,"[-13, 48]",22.2,0.0,16.7
+LLM (no retrieval) + twin verification,-12.9,15.0,"[-0, 49]",0.0,0.0,55.6
+"LLM + retrieval, validator only",-6.4,7.5,"[-16, 43]",27.8,0.0,16.7
+LLM + retrieval + twin verification,-12.9,15.1,"[-0, 56]",0.0,0.0,61.1
+oracle (true incident known),-85.6,100.0,"[100, 100]",0.0,0.0,0.0

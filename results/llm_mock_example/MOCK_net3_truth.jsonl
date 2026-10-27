@@ -1,0 +1,6 @@
+{"key": "Net3|K25|s0|i0", "kind": "LEAK", "t_start": 27900, "pipe": "149", "pump": null, "hold_cost": 3219.394775390625}
+{"key": "Net3|K25|s0|i1", "kind": "LEAK", "t_start": 8100, "pipe": "129", "pump": null, "hold_cost": 4076.27490234375}
+{"key": "Net3|K25|s0|i2", "kind": "LEAK", "t_start": 30600, "pipe": "204", "pump": null, "hold_cost": 2084.080810546875}
+{"key": "Net3|K25|s0|i3", "kind": "LEAK", "t_start": 42300, "pipe": "205", "pump": null, "hold_cost": 2005.5360107421875}
+{"key": "Net3|K25|s0|i4", "kind": "LEAK", "t_start": 26100, "pipe": "129", "pump": null, "hold_cost": 1475.6116943359375}
+{"key": "Net3|K25|s0|i5", "kind": "LEAK", "t_start": 10800, "pipe": "113", "pump": null, "hold_cost": 4054.389404296875}

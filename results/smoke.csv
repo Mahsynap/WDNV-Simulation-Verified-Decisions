@@ -1,0 +1,25 @@
+network,incident,kind,t_start_h,severity,skipped,n_candidates,n_invalid,n_sim_failed,n_plant_unsafe,hold_objective_m3,hold_hard_safe,oracle_action,oracle_mode,oracle_objective_m3,twin_action,twin_mode,realized_objective_m3,realized_hard_safe,oracle_gain_pct,realized_gain_pct,regret_m3,twin_false_assurance,twin_false_alarm,n_compared
+Net3,LEA000,LEAK,8.5,0.0344,,11.0,0.0,0.0,1.0,2050.9,True,CLOSE[299],safe_best,140.8,CLOSE[299],safe_best,140.8,True,93.1,93.1,0.0,0.0,0.0,11.0
+Net3,LEA001,LEAK,2.25,0.0282,,11.0,0.0,0.0,1.0,1682.8,True,CLOSE[169],safe_best,82.8,CLOSE[169],safe_best,82.8,True,95.1,95.1,0.0,1.0,0.0,11.0
+Net3,LEA002,LEAK,10.25,0.0638,,11.0,0.0,0.0,2.0,3806.1,True,CLOSE[129],safe_best,284.0,CLOSE[129],safe_best,284.0,True,92.5,92.5,0.0,1.0,0.0,11.0
+Net3,LEA003,LEAK,8.0,0.0627,,11.0,0.0,0.0,1.0,3739.0,True,CLOSE[213],safe_best,242.4,CLOSE[213],safe_best,242.4,True,93.5,93.5,0.0,1.0,0.0,11.0
+Net3,LEA004,LEAK,7.5,0.0768,,11.0,0.0,0.0,2.0,4580.4,True,CLOSE[239],safe_best,285.9,CLOSE[239],safe_best,285.9,True,93.8,93.8,0.0,0.0,0.0,11.0
+Net3,LEA005,LEAK,10.25,0.0171,,11.0,0.0,0.0,0.0,1019.1,True,CLOSE[159],safe_best,80.2,CLOSE[159],safe_best,80.2,True,92.1,92.1,0.0,0.0,0.0,11.0
+Net3,PUM000,PUMP_FAILURE,,2.1899359992994232e-12,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+Net3,PUM001,PUMP_FAILURE,,0.0005583851015153348,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+Net3,PUM002,PUMP_FAILURE,,0.0005484489115706889,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+Net3,SUR000,DEMAND_SURGE,,2.1899359992994232e-12,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+Net3,SUR001,DEMAND_SURGE,2.0,0.0038,,9.0,0.0,0.0,1.0,225.3,True,HOLD,safe_best,225.3,HOLD,safe_best,225.3,True,0.0,0.0,0.0,0.0,0.0,9.0
+Net3,SUR002,DEMAND_SURGE,,2.1899359992994232e-12,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+ky6,LEA000,LEAK,8.5,0.0351,,6.0,0.0,0.0,1.0,216.0,True,CLOSE[P-591],safe_best,18.9,CLOSE[P-591],safe_best,18.9,True,91.2,91.2,0.0,0.0,0.0,6.0
+ky6,LEA001,LEAK,2.25,0.0285,,7.0,0.0,0.0,3.0,175.5,True,HOLD,safe_best,175.5,HOLD,safe_best,175.5,True,0.0,0.0,0.0,0.0,0.0,7.0
+ky6,LEA002,LEAK,10.25,0.0643,,7.0,0.0,0.0,1.0,396.0,True,CLOSE[P-191],safe_best,45.3,CLOSE[P-191],safe_best,45.3,True,88.6,88.6,0.0,0.0,0.0,7.0
+ky6,LEA003,LEAK,8.0,0.0638,,7.0,0.0,0.0,1.0,393.1,True,CLOSE[P-373],safe_best,29.6,CLOSE[P-373],safe_best,29.6,True,92.5,92.5,0.0,0.0,0.0,7.0
+ky6,LEA004,LEAK,7.5,0.078,,7.0,0.0,0.0,1.0,480.4,True,CLOSE[P-440],safe_best,79.0,CLOSE[P-440],safe_best,79.0,True,83.6,83.6,0.0,0.0,0.0,7.0
+ky6,LEA005,LEAK,10.25,0.0174,,7.0,0.0,0.0,1.0,107.0,True,CLOSE[P-248],safe_best,12.8,CLOSE[P-248],safe_best,12.8,True,88.0,88.0,0.0,0.0,0.0,7.0
+ky6,PUM000,PUMP_FAILURE,,0.0,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+ky6,PUM001,PUMP_FAILURE,2.25,1.3201,,5.0,0.0,0.0,4.0,8129.6,False,PUMP ~@Pump-2 OPEN,safe_best,5.0,PUMP ~@Pump-2 OPEN,safe_best,5.0,True,99.9,99.9,0.0,0.0,0.0,5.0
+ky6,PUM002,PUMP_FAILURE,10.75,0.0991,,5.0,0.0,0.0,4.0,610.2,False,PUMP ~@Pump-2 OPEN,safe_best,5.0,PUMP ~@Pump-2 OPEN,safe_best,5.0,True,99.2,99.2,0.0,0.0,0.0,5.0
+ky6,SUR000,DEMAND_SURGE,,0.0,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+ky6,SUR001,DEMAND_SURGE,,0.0,negligible_or_failed,,,,,,,,,,,,,,,,,,,
+ky6,SUR002,DEMAND_SURGE,,0.0,negligible_or_failed,,,,,,,,,,,,,,,,,,,

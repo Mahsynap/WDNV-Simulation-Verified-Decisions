@@ -1,0 +1,7 @@
+policy,n,cost_vs_hold_pct,share_of_oracle_gain_pct,worse_than_hold_pct,violation_pct
+HOLD,14,0.0,0.0,0.0,0.0
+single-shot robust,14,-12.7,15.6,0.0,0.0
+"closed loop, no probing",14,-23.4,28.8,7.1,0.0
+closed loop (probe+refine),14,-16.2,20.0,28.6,21.4
+"closed loop, forced probing",14,-15.4,19.0,35.7,21.4
+"oracle (true location, immediate)",14,-81.1,100.0,0.0,0.0

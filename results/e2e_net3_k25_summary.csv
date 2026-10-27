@@ -1,0 +1,9 @@
+network,K,policy,n,cost_vs_hold_pct,share_of_oracle_gain_recovered,harm_rate,violation_rate,deferral_rate
+Net3,25,HOLD,14,0.0,0.0,0.0,0.0,0.0
+Net3,25,naive_top1,14,-4.94,6.06,0.0,0.0,0.0
+Net3,25,verified_top1,14,-5.2,6.39,0.0,0.0,0.0
+Net3,25,verified_robust,14,-8.77,10.76,0.0,0.0,0.0
+Net3,25,abstain_0.1,14,-71.2,87.38,0.0,0.0,1.0
+Net3,25,abstain_0.25,14,-71.2,87.38,0.0,0.0,1.0
+Net3,25,abstain_0.5,14,-68.53,84.1,0.0,0.0,0.71
+Net3,25,oracle,14,-81.49,100.0,0.0,0.0,0.0
